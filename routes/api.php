@@ -14,7 +14,7 @@ use App\Http\Controllers\PeopleController;
 |
 */
 Route::get('walldorf/305420/people{people}',[PeopleController::class, 'show_all']);
-Route::get('walldorf/305420/people{people}',[PeopleController::class, 'show_']);
+Route::get('walldorf/305420/people{people}',[PeopleController::class, 'show']);
 Route::post('walldorf/305420/people{people}',[PeopleController::class, 'create']);
 Route::put('walldorf/305420/people{people}',[PeopleController::class, 'update']);
 Route::delete('walldorf/305420/people{people}',[PeopleController::class, 'destroy']);
