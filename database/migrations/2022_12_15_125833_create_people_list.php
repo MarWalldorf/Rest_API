@@ -15,11 +15,10 @@ return new class extends Migration
     {
         Schema::create('people_list', function (Blueprint $table) {
             $table->increments('id');
-            $table->tesxt('firstname');
-            $table->text('surname')
-            $table->text('phone_number')
-            $table->text('city')
-            $table->usnsignedInteger(person_id);
+            $table->string('firstname');
+            $table->string('surname');
+            $table->string('phone_number');
+            $table->string('city');
             $table->timestamps();
         });
     }
