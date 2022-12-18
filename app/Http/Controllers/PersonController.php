@@ -5,7 +5,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use App\Models\Person;
 
-class PeopleController extends Controller
+class PersonController extends Controller
 {
 
     public function index(): JsonResponse
