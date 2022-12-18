@@ -23,3 +23,4 @@ Route::delete('walldorf/305420/people{people}',[PeopleController::class, 'destro
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::apiResource('people',PeopleController::class);
